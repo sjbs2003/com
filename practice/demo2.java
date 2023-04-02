@@ -7,33 +7,20 @@ public class demo2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        int[][] arr = new int[4][4];
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0; col < arr[row].length; col++) {
-                arr[row][col] = in.nextInt();
-            }
+        int[] array= {9,8,7,6,5,4,3,2,1,0};
+        int num=0;
+        for (int i = 0; i < array.length; i++) {
+            num=num*10 +array[i];
         }
-        for (int row = 0; row < 4; row++) {
-            for (int col = 0; col <= 4; col++) {
-                if (row>=col){
-                    System.out.print(arr[row][col]);
-                }
-            }
-            System.out.println();
+        num += 1;
+        System.out.println(num);
+        String numStr= String.valueOf(num);
+        char[] numChar = numStr.toCharArray();
+        int[] arr = new int[numChar.length];
 
+        for (int i = 0; i < numChar.length; i++) {
+            arr[i]=Character.getNumericValue(numChar[i]);
         }
-        System.out.println();
-
-        for (int row = 0; row < 4; row++) {
-            for (int col = 0; col < 4; col++) {
-                if (row<=col){
-                    System.out.print(arr[row][col]);
-                }else {
-                    System.out.print(" ");
-                }
-            }
-            System.out.println();
-
-        }
+        System.out.println(Arrays.toString(arr));
     }
 }
