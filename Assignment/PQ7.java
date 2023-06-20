@@ -6,7 +6,7 @@ import java.util.List;
 
 public class PQ7 {
     public static void main(String[] args) {
-        String fileName = "sample.txt";
+        String fileName = "/Users/Hp/Desktop/sample.txt";
         List<String> lines = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
