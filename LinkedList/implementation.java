@@ -8,7 +8,7 @@ public class implementation {
 
         sb.add("1");
         System.out.println(sb.add("2"));
-        sb.add("Bhummi");
+        sb.add("Dumb");
         System.out.println(sb);
     }
 }
