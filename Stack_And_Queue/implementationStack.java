@@ -1,8 +1,8 @@
-package com.Stack;
+package com.Stack_And_Queue;
 
 import java.util.Stack;
 
-public class implementation {
+public class implementationStack {
     public static void main(String[] args) {
         Stack<String> sb = new Stack<>();
 
