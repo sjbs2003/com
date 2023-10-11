@@ -1,4 +1,4 @@
-package com.binary5.Questions;
+package com.LeetCode;
 
 public class FloorOfANo {
     // when we need to return the smaller or target

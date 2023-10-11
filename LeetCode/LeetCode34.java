@@ -1,4 +1,4 @@
-package com.binary5.Questions;
+package com.LeetCode;
 
 import java.util.Arrays;
 

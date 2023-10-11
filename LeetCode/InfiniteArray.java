@@ -1,4 +1,4 @@
-package com.binary5.Questions;
+package com.LeetCode;
 
 public class InfiniteArray {
     public static void main(String[] args) {

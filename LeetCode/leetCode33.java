@@ -1,4 +1,4 @@
-package com.binary5.Questions;
+package com.LeetCode;
 
 // https://leetcode.com/problems/search-in-rotated-sorted-array/description/
 public class leetCode33 {

@@ -1,4 +1,4 @@
-package com.binary5.Questions;
+package com.LeetCode;
 
 public class LeetCode852 {
     // same ans for Q 162

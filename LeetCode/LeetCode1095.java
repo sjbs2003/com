@@ -1,4 +1,4 @@
-package com.binary5.Questions;
+package com.LeetCode;
 
 public class LeetCode1095 {
 
