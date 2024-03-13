@@ -1,5 +1,7 @@
 package com.sort;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.Arrays;
 
 public class selectionSort {
@@ -10,7 +12,7 @@ public class selectionSort {
     }
 
 
-    static void selection(int[] arr) {
+    static void selection(@NotNull int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             //find the max item in the remaining array and swap with correct index
             int last = arr.length - i - 1;
@@ -19,7 +21,7 @@ public class selectionSort {
         }
     }
 
-    static void swap(int[] arr, int first, int second){
+    static void swap(@NotNull int[] arr, int first, int second){
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;

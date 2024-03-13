@@ -37,5 +37,6 @@ public class Practice {
     public boolean isEmpty(){
         return ptr == -1;
     }
+
 }
 
